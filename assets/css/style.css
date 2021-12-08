@@ -1,0 +1,1768 @@
+/* +++++++++++++++++++++++++ Config General +++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* Google font  */
+    /*  */
+
+
+/* font-family:  */
+    /*  */
+
+
+/* Color Variables */
+:root {
+    ---white: #fff;
+    --light-white: #ddd;
+    --bg-main-color: #F3F2F1;
+    --green-titles: #96A928;
+    --text-color: #5B625A;
+    --bg-btn-color: #BC8B60;
+    --bg-footer-color: #829D24;
+    --bg-header-color: #96B00F;
+    --gray-color :#D0D898;
+    --bg-about-color:#EAEFCF;
+    --bg-stars-color: #FFDB0E;
+    --bg-lst-star-color :#9D9693;
+    --bg-list-color: #eee;
+    --bg-heart-color: #FF806C;
+
+}
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+
+/* Width of the header and main section */
+.header,.heading,.slideSection ,.teaCategories,.teaProducts, .aboutSection, .listingSection, .productSection, .contactSection {
+
+    max-width: 1100px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* ======================
+main Section
+========================*/
+main {
+    background-color: var(--bg-main-color);
+    
+
+}
+
+/* .homePage, .listingPage {
+    padding-top: 30px;
+    padding-bottom: 30px;
+} */
+
+.listingPage {
+    padding-top: 30px;
+    padding-bottom: 30px;
+} 
+
+.homePage {
+    padding-bottom: 30px;
+}
+
+
+.listingPage, .contactPage { 
+
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+
+.aboutPage, .productPage {
+    padding-bottom: 30px;
+}
+
+/* footer .footer-1 {
+    margin: 0 auto;
+    
+
+} */
+
+/* Buttons */
+.btn {
+    background-color: var(--bg-btn-color);
+    outline: none;
+    border: none;
+    padding: 10px;
+    color: var(--light-white);
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.btn:hover {
+    opacity: 75%;
+}
+
+/* section {
+    margin-top: 30px;
+
+} */
+
+
+
+                                 
+/*---------------------------------------------------------------------------------------------
+                                    For desktop
+---------------------------------------------------------------------------------------------*/
+
+/*========================================================================================= 
+                                     Home Page
+=========================================================================================*/
+
+
+/* +++++++++++++++++++ Main Style +++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* ======================
+Header
+========================*/
+header {
+    /* background-color: var(--bg-header-color); */
+    background-image: url('../imgs/bg.jpg');
+    height: 180px;
+    /* background-repeat: repeat-x; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+/* .bg-transparent {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 28px;
+    top: 0;
+
+} */
+
+/* .header {
+    width: 70%;
+    position: relative;
+
+} */
+
+
+header .offer {
+    color: var(---white);
+    /* opacity: 60%; */
+    text-align: center;
+    padding: 5px 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    
+}
+
+header .ribbon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 120px;
+    
+}
+header .ribbon img {
+    width: 100%;
+    
+}
+
+.header .logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    flex-direction: row-reverse;
+
+
+}
+
+.header .logo-container  .logo {
+    width: 150px;
+    cursor: pointer;
+    
+}
+
+.header .logo-container  .logo img {
+    width: 100%;
+}
+
+.header .logo-container .cart {
+    display: flex;
+    align-items: center;
+    color: var(---white);
+    /* align-items: center; */
+
+}
+
+
+.header .logo-container .cart h4  {
+    margin-right: 5px;
+
+}
+
+.header .logo-container .cart i  {
+    margin-right: 5px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+
+    cursor: pointer;
+
+    
+}
+
+.header .logo-container .cart i:hover  {
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+}
+
+.opacity {
+    opacity: 60%;
+
+}
+
+
+.header .logo-container .car p  {
+    font-weight: bold;
+    
+}
+
+
+.header .nav-bar {
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    /* text-align: center; */
+    /* padding-right: 40px; */
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .nav-bar a {
+    color: var(---white);
+    text-decoration: none;
+    /* margin-right: 69px; */
+    cursor: pointer;
+    
+}
+
+.header .nav-bar a:hover {
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+
+
+
+/* ======================
+Heading section
+========================*/
+.heading  {
+        text-align: center;
+}
+
+.heading h1  {
+        color: var(--green-titles);
+        font-weight: 300;
+        font-family: tahoma;
+        margin-bottom: 20px;
+}
+
+.heading img  {
+       width: 100%;
+       cursor: pointer;
+}
+
+.heading p  {
+    margin-top: 5px;
+    font-size: 14px;
+    color: var(--text-color);
+}
+
+
+/* ======================
+Slider section
+========================*/
+/* .slideSection {
+
+    
+} */
+
+.slideSection .img-slider {
+    margin-top: 30px;
+    position: relative;
+    width: 100%;
+    height: 259px;
+    /* margin-bottom: 100px; */
+    overflow: hidden;
+    
+    
+}
+
+.slideSection .img-slider .slide {
+    z-index: 1;
+    position: absolute;
+    /* width: 100%;
+    height: 100%; */
+    clip-path: circle(0% at 0 50%);
+     /* width: 200px;
+    height: 100px;
+    object-fit: contain; */
+}
+
+.slideSection  .img-slider .slide.active {
+    clip-path: circle(150% at 0 50%);
+    transition: 2s;
+    transition-property: clip-path;
+} 
+
+.slideSection .img-slider .slide img {
+    z-index: 1;
+    width: 100%;
+    /* width: 600px;
+    height: 100px;*/
+    
+    
+    /* border-radius: 5px; */
+}
+
+.slideSection .img-slider .navigation {
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slideSection .img-slider .navigation .btn-slider {
+    background: rgba(0, 0, 0, 0.5);
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slideSection .img-slider .navigation .btn-slider.active  {
+    background: #000;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+/* ======================
+teaCategories section
+========================*/
+.teaCategories  {
+    background-color: var(---white);
+    margin-top: 30px;
+    padding: 20px 10px;
+}
+
+
+
+.teaCategories  > h2 {
+    color: var(--green-titles);
+    margin: 0 5px;
+    text-align: center;
+    
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.teaCategories  h2:before, .teaCategories h2:after {
+    content: "";
+    border-top:  1px solid #eee;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+    
+}
+
+.teaCategories h2:after {
+   margin: 0 5px 0 20px;
+}
+
+.teaCategories .img-teaCategories {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.teaCategories .img-teaCategories .box img {
+    transition: all .2s linear;
+}
+
+.teaCategories .img-teaCategories .box:hover img {
+    opacity: 0.5;
+}
+
+.teaCategories .img-teaCategories .box img  {
+    width: 80%;
+}
+
+
+.teaCategories .img-teaCategories .box h3  {
+    color: var(--text-color);
+    
+}
+
+
+/* ======================
+Tea Products section
+========================*/
+.teaProducts  {
+    background-color: var(---white);
+    margin-top: 30px;
+    padding: 20px 10px;
+
+}
+
+.teaProducts .products-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    column-gap: 20px;
+}
+
+.teaProducts .products-container .box {
+    flex: 1;
+    flex-basis: 33.33%;
+}
+
+.teaProducts .products-container .box  h2 {
+    color: var(--green-titles);
+    margin: 0 5px;
+    text-align: center;
+    font-size: 18px;
+    
+    /* For the lines */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* For the lines  starts*/
+.teaProducts .products-container .box  h2:before, .teaProducts .products-container .box  h2:after {
+    content: "";
+    border-top:  1px solid #eee;
+    margin: 0 10px 0 0;
+    flex: 1 0 20px;
+    
+}
+
+.teaProducts .products-container .box  h2:after {
+   margin: 0 5px 0 10px;
+}
+/* For the lines  ends*/
+
+.teaProducts .products-container .box img {
+    width: 100%;
+}
+
+.teaProducts .products-container .box  h3 {
+    font-size: 16px;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.teaProducts .products-container .box p {
+    font-size: 14px;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.teaProducts .products-container .box .price {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+/* ===================================
+Footer
+=====================================*/
+footer {
+    /* background-color: var(--bg-header-color); */
+    background-image: url('../imgs/bg.jpg');
+    /* height: 180px; */
+    /* background-repeat: repeat-x; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    position: relative;
+}
+
+/* .footer-transparent {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 110px;
+    bottom: 0;
+
+} */
+
+footer .footer-1 {
+    background-color: var(--bg-footer-color);
+
+}
+
+footer .footer-1 .box-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+footer .footer-1 .box-container .box {
+    color: var(--gray-color);
+
+}
+
+footer .footer-1 .box-container .box i {
+    font-size: 20px;
+}
+
+footer .footer-1 .box-container .box p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+.box-footer {
+
+    padding-bottom: 10px;
+
+}
+
+.box-footer .footer-2 {
+        width: 70%;
+        margin: 0 auto;
+        padding: 30px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+
+}
+
+.box-footer .footer-2 .box h3 {
+    color: var(---white);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.box-footer .footer-2 .box ul li {
+
+    list-style: none;
+    color: var(--gray-color);
+    font-size: 12px;
+    margin-top: 5px;
+
+}
+
+.box-footer .footer-2 .box ul li:hover {
+
+    color: var(---white);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+footer  .footer-3 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+}
+
+footer .footer-3 img {
+    width: 50px;
+    margin-bottom: 5px;
+}
+
+
+footer  .footer-3 p {
+    color: var(--gray-color);
+    font-size: 12px;
+}
+
+/*========================================================================================= 
+                                     About Page
+=========================================================================================*/
+
+/* ===================================
+Main
+=====================================*/
+.aboutPage .aboutSection  {
+
+    background-color: var(---white);
+     /* margin-top: 30px; */
+    padding: 20px 10px;
+
+}
+.aboutPage .aboutSection  h1 {
+        color: var(--text-color);
+        font-weight: lighter;
+        margin-bottom: 10px;
+
+}
+
+.aboutPage .aboutSection  h2 {
+    color: var(--green-titles);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
+    font-size: 20px;
+
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutPage .aboutSection  h2:after {
+    content: "";
+    border-top:  1px solid #eee;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+    
+}
+
+.aboutPage .aboutSection  h2:after {
+   margin: 0 5px 0 20px;
+}
+
+.aboutSection .firstSection article img {
+    width: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+.aboutSection article p {
+    color: var(--text-color);
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.aboutSection .secondSection article img{
+    width: 50%;
+    float: right;
+    margin-left: 10px;
+}
+
+
+.aboutSection .thirdSection .box-container  {
+    background-color: var(--bg-about-color);
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 20px;
+    color: var(--text-color);
+}
+
+
+.aboutSection .thirdSection .box-container .box p {
+    margin-top: 15px;
+}
+
+
+/*========================================================================================= 
+                                     Listing Page
+=========================================================================================*/
+
+/* ===================================
+Main
+=====================================*/
+.listingPage .listingSection  {
+
+    background-color: var(---white);
+     /* margin-top: 30px; */
+    padding: 20px 10px;
+    margin-top: 20px;
+    color: var(--text-color);
+    
+
+}
+
+.listingPage .listingSection .firstSection h2 {
+    color: var(--green-titles);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
+    font-size: 20px;
+
+
+    display: flex;
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center; 
+}
+
+.listingPage .listingSection .firstSection h2:after {
+    content: "";
+    border-top:  1px solid #eee;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+    
+}
+
+.listingPage .listingSection .firstSection h2:after {
+   margin: 0 5px 0 20px;
+}
+
+.listingPage .listingSection .firstSection article img  {
+    float: left;
+    width: 15%;
+}
+
+
+.listingPage .listingSection .firstSection .box-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: var(--text-color);
+
+}
+
+.listingPage .listingSection .firstSection .box-container .box h3 {
+    font-size: 18px;
+
+}
+
+.listingPage .listingSection .firstSection .box-container .box img {
+    width: 70%;
+}
+
+.listingPage .listingSection .firstSection .box-container .box .price {
+            margin-top: 5px;
+            margin-bottom: 15px;
+            font-weight: bold;
+}
+
+
+/*========================================================================================= 
+                                     Product Page
+=========================================================================================*/
+
+/* ===================================
+Main
+=====================================*/
+.productPage .productSection  {
+
+    background-color: var(---white);
+     /* margin-top: 30px; */
+    padding: 20px 10px;
+    color: var(--text-color);
+
+}
+
+.productPage .productSection .firstArticle {
+    display: flex;
+    justify-content: space-between;
+    
+    /* text-align: center; */
+}
+
+
+.productPage .productSection .firstArticle .box1 {
+    /* align-self: flex-end; */
+    margin-top: 0 ;
+    
+}
+
+.productPage .productSection .firstArticle .box1  h1 {
+        color: var(--text-color);
+        font-weight: lighter;
+        
+
+}
+
+.productPage .productSection .firstArticle .box1 .bold {
+        margin-bottom: 10px;
+}
+
+
+.productPage .productSection .firstArticle .box1 p span {
+        font-size: 14px;
+}
+
+.productPage .productSection .firstArticle .box2 .stars {
+    text-align: right;
+    color: var(--bg-stars-color);
+    
+}
+
+.productPage .productSection .firstArticle .box2 .stars i:last-child {
+    color: var(--bg-lst-star-color);
+    
+}
+
+.productPage .productSection .firstArticle .box2 .green {
+    color: var(--green-titles);
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+.productPage .productSection .secondArticle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productPage .productSection .secondArticle .box2 {
+        text-align: right;
+
+}
+
+.productPage .productSection .secondArticle .box2 select {
+        padding: 3px 50px 3px 2px;
+        font-size: 12px;
+        background-color: var(--bg-list-color);
+        outline: none;
+        border-radius: 5px;
+}
+
+.productPage .productSection .secondArticle .box2 select option {
+        background-color: var(--green-titles);
+}
+
+/* .productPage .productSection .secondArticle .box2 select: {
+        background-color: red;
+} */
+
+.productPage .productSection .secondArticle .box2 select:hover, .productPage .productSection .secondArticle .box2:focus {
+        border: 3px solid var(--green-titles);
+        
+}
+
+.productPage .productSection .secondArticle .box2 .price {
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.productPage .productSection .secondArticle .box2 button {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 5px;
+}
+
+.productPage .productSection .secondArticle .box2 .green {
+    font-size: 12px;
+    color: var(--green-titles);
+    cursor: pointer;
+}
+
+.productPage .productSection .secondArticle .box2 i {
+        color: var(--bg-heart-color);
+        margin-right: 5px;
+}
+
+.productPage .productSection .thirdArticle p {
+    margin-top: 10px;
+}
+
+.productPage .productSection .thirdArticle .bold {
+    font-weight: bold;
+}
+
+/*========================================================================================= 
+                                     Contact Page
+=========================================================================================*/
+
+/* ===================================
+Main
+=====================================*/
+.contactPage .contactSection  {
+
+    background-color: var(---white);
+     /* margin-top: 30px; */
+    padding: 20px 10px;
+    
+
+}
+
+
+.contactPage .contactSection .icons-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.contactPage .contactSection .icons-container .icons {
+  flex-basis: 33.33%;
+  margin-right: 10px;
+  text-align: center;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.contactPage .contactSection .icons-container .icons i {
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  font-size: 2rem;
+  background: var(--green-titles);
+  color: #fff;
+  border-radius: 50%;
+}
+
+.contactPage .contactSection .icons-container .icons h3 {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  padding: 1rem 0;
+}
+
+.contactPage .contactSection .icons-container .icons p {
+  color: var(--text-color);
+  /* font-size: 1.5rem;*/
+  line-height: 1.5; 
+}
+
+.contactPage .contactSection .row {
+  /* display: -webkit-box;
+  display: -ms-flexbox; */
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* -ms-flex-wrap: wrap;
+      flex-wrap: wrap; */
+  gap: 1.2rem;
+  margin-top: 1rem;
+}
+
+.contactPage .contactSection .row form {
+  padding: 1rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  flex-basis: 50%;
+  /* -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem; */
+}
+
+.contactPage .contactSection .row form h1 {
+  /* font-size: 18px ; */
+  padding-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.contactPage .contactSection .row form .inputBox {
+  display: flex;
+  /* -webkit-box-pack: justify;
+      -ms-flex-pack: justify; */
+  justify-content: space-between;
+  /* -ms-flex-wrap: wrap; */
+      flex-wrap: wrap;
+}
+
+.contactPage .contactSection .row form .inputBox input {
+  width: 49%;
+}
+
+.contactPage .contactSection .row form .inputBox .box, .contactPage .contactSection .row form textarea {
+  padding: .5rem 0.5rem;
+  /* font-size: 1.6rem; */
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  /* color: #222; */
+  text-transform: none;
+  margin: .7rem 0;
+}
+
+.contactPage .contactSection .row form textarea {
+  width: 100%;
+  height: 10rem;
+  resize: none;
+}
+
+.contactPage .contactSection .row .map {
+  /* -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem; */
+  flex-basis: 50%;      
+    
+  /* width: 100%; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------- */
+
+
+
+
+/*---------------------------------------------------------------------------------------------
+                                    For mobile
+---------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+
+    /* +++++++++++++++++++ Main Style +++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* ======================
+Header
+========================*/
+header {
+    background-color: var(--bg-header-color);
+    background-image: url('../imgs/bg.jpg');
+    height: 320px;
+    /* background-repeat: repeat-x; */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* 
+.bg-transparent {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 28px;
+    top: 0;
+
+} */
+
+
+
+.header .offer {
+    font-size: 18px;
+    
+}
+
+header .ribbon {
+    display: none;
+    
+}
+
+.header .logo-container {
+    justify-content: center;
+
+}
+
+.header .logo-container  .logo {
+    display: inline-block;
+    margin-top: 30px;
+    width: 200px;
+    
+}
+
+
+.header .logo-container .cart {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    padding: 2px 7px;
+    border-radius: 0 30px 30px 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 10.6px;
+   
+
+}
+
+
+.header .logo-container .cart h4  {
+    display: none;
+    /* margin-right: 5px; */
+
+}
+
+.header .logo-container .cart i  {
+    font-size: 10px;
+
+}
+
+
+.header .logo-container .cart p  {
+
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.header .nav-bar {
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    /* text-align: center; */
+    /* padding-right: 40px; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.header .nav-bar a {
+    margin-bottom: 15px;
+    
+    
+}
+
+.header .nav-bar a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: var(---white);
+    padding: 2px 60px;
+    /* background-color: var(---white);
+    opacity: 20%;
+    font-weight: bold; */
+}
+
+/* ======================
+main 
+========================*/
+main {
+    
+    padding-top: 1px;
+    padding-bottom: 20px;
+
+}
+
+
+/* .homePage {
+        padding-top: 50px;
+} */
+
+
+/* ======================
+Heading section
+========================*/
+.heading  {
+        display: none;
+}
+
+/* ======================
+Slider section
+========================*/
+.slideSection {
+    display: none;
+}
+
+/* ======================
+teaCategories section
+========================*/
+.teaCategories  {
+    width: 100%;
+    /* background-color: var(---white); */
+    margin-top: 0px;
+}
+
+
+.teaCategories .img-teaCategories {
+    margin-top: 10px;
+    /* display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap; */
+    
+}
+
+
+
+.teaCategories .img-teaCategories .box img {
+    width: 90%;
+}
+
+
+/* ======================
+Tea Products section
+========================*/
+.teaProducts  {
+    width: 100%;
+    /* background-color: var(---white); */
+    margin-top: 20px;
+    /* padding: 20px 10px; */
+
+}
+
+.teaProducts .products-container {
+    /* display: flex;
+    justify-content: center;
+    text-align: center;
+    column-gap: 20px; */
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.teaProducts .products-container .box {
+    flex: 1;
+    flex-basis: 100%;
+}
+
+
+.teaProducts .products-container .box img {
+    width: 50%;
+}
+
+
+.teaProducts .products-container .box .price {
+    font-size: 20px;
+}
+
+
+
+/* ===================================
+Footer
+=====================================*/
+.box-footer .footer-2 {
+     
+        row-gap: 20px;
+
+}
+
+footer .footer-1 .box-container,.box-footer .footer-2, .box-footer .footer-3  {
+
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+}
+    
+
+
+footer .footer-1 .box-container .box p {
+    
+    font-size: 12px;
+}
+
+
+
+/*========================================================================================= 
+                                     About Page
+=========================================================================================*/
+
+/* ===================================
+Main
+=====================================*/
+.aboutPage .aboutSection  {
+    width: 100%;
+
+}
+
+
+
+.aboutSection .firstSection article img, .aboutSection .secondSection article img {
+    float: none;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.aboutSection  article p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.aboutSection .thirdSection .box-container  {
+   flex-wrap: wrap;
+}
+
+
+/*========================================================================================= 
+                                     Listing Page
+=========================================================================================*/
+
+/* ===================================
+Main
+=====================================*/
+.listingPage .listingSection  {
+
+    width: 100%;
+
+}
+
+
+.listingPage .listingSection .firstSection article img  {
+    display: none;
+}
+
+
+.listingPage .listingSection .firstSection .box-container {
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+
+/*========================================================================================= 
+                                     Product Page
+=========================================================================================*/
+
+/* ===================================
+Main
+=====================================*/
+.productPage .productSection  {
+
+   width: 100%;
+
+}
+
+.productPage .productSection .firstArticle {
+    display: block;
+   /* flex-wrap: wrap;
+   justify-content: space-around; */
+   text-align: center;
+   /* row-gap: 10px; */
+    
+    margin-bottom: 10px;
+}
+
+.productPage .productSection .firstArticle .box1  {
+    margin-bottom: 10px;
+}
+
+.productPage .productSection .firstArticle .box2 .stars {
+    text-align: center;
+    
+}
+
+
+.productPage .productSection .secondArticle {
+    display: block;
+   text-align: center;
+   
+    /* justify-content: space-between;
+    align-items: center; */
+}
+
+.productPage .productSection .secondArticle .box2 {
+        text-align: center;
+
+}
+
+ .productSection .secondArticle .box2 select, .productSection .secondArticle .box2 button {
+    width: 100%;
+}
+
+
+/*========================================================================================= 
+                                     Contact Page
+=========================================================================================*/
+
+/* ===================================
+Main
+=====================================*/
+.contactPage .contactSection  {
+
+    width: 100%;
+    
+
+}
+
+
+.contactPage .contactSection .icons-container {
+    flex-wrap: wrap;
+    /* display: flex; */
+    /* justify-content: space-around; */
+}
+
+.contactPage .contactSection .icons-container .icons {
+    flex-basis: 100%;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+.contactPage .contactSection .icons-container .icons h3 {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  padding: 1rem 0;
+}
+
+.contactPage .contactSection .icons-container .icons p {
+  color: var(--text-color);
+  /* font-size: 1.5rem;*/
+  line-height: 1.5; 
+}
+
+.contactPage .contactSection .row {
+    flex-wrap: wrap;
+  /* display: -webkit-box;
+  display: -ms-flexbox; */
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* -ms-flex-wrap: wrap;
+      flex-wrap: wrap; */
+  /* gap: 1.2rem;
+  margin-top: 1rem; */
+}
+
+.contactPage .contactSection .row form {
+ 
+  flex-basis: 100%;
+ 
+}
+
+.contactPage .contactSection .row .map {
+  
+  flex-basis: 100%;      
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+/*---------------------------------------------------------------------------------------------
+                                    For Desktop
+---------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1209px) {
+
+.slideSection .navigation {
+    top: 80%;
+}   
+}
+
+
+
+@media screen and (max-width: 1115px) {
+
+.slideSection .navigation {
+    top: 75%;
+}   
+}
+
+@media screen and (max-width: 1115px) {
+
+.slideSection .navigation {
+    top: 70%;
+}   
+}
+
+
+/*---------------------------------------------------------------------------------------------
+                                    For Tablette
+---------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1023px) {
+
+/* Width of the header and main section */
+.header  {
+
+    width: 90%;
+    
+}
+
+
+/*========================================================================================= 
+                                     Home Page
+=========================================================================================*/
+
+
+/* +++++++++++++++++++ Main Style +++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* ======================
+Header
+========================*/
+
+
+header .ribbon {
+    
+    width: 70px;
+    
+    
+}
+
+.header {
+
+    width: 100%;
+    padding: 0px 10px;
+
+}
+
+.header .logo-container  .logo {
+    width: 180px;
+    
+    
+}
+
+
+/* ======================
+Heading section
+========================*/
+.heading  {
+        width: 100%;
+}
+
+.heading h1  {
+        color: var(--green-titles);
+        font-weight: 300;
+        font-family: tahoma;
+        margin-bottom: 20px;
+}
+
+.heading img  {
+       width: 100%;
+       cursor: pointer;
+}
+
+.heading p  {
+    margin-top: 5px;
+    font-size: 14px;
+    color: var(--text-color);
+}
+
+
+
+/* ======================
+Slider section
+========================*/
+.slideSection {
+    width: 100%;
+}
+
+
+
+.slideSection .navigation {
+    top: 80%;
+}   
+
+
+
+
+/* ======================
+teaCategories section
+========================*/
+.teaCategories  {
+    width: 100%;
+    /* background-color: var(---white); */
+    margin-top: 30px;
+    /* padding: 20px 10px; */
+}
+
+
+.teaCategories .img-teaCategories {
+    margin-top: 10px;
+    /* display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap; */
+    
+}
+
+
+
+.teaCategories .img-teaCategories .box img {
+    width: 50%;
+}
+
+/* ======================
+Tea Products section
+========================*/
+.teaProducts  {
+    width: 100%;
+    /* background-color: var(---white); */
+    margin-top: 20px;
+    /* padding: 20px 10px; */
+
+}
+
+.teaProducts .products-container {
+    /* display: flex;
+    justify-content: center;
+    text-align: center;
+    column-gap: 20px; */
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.teaProducts .products-container .box {
+    flex: 1;
+    flex-basis: 100%;
+}
+
+
+.teaProducts .products-container .box img {
+    width: 50%;
+}
+
+
+.teaProducts .products-container .box .price {
+    font-size: 20px;
+}
+
+
+
+/* ===================================
+Footer
+=====================================*/
+footer .footer-1 .box-container,.box-footer .footer-2, footer .footer-3  {
+
+    /* width: 100%; */
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+}
+    
+
+
+
+footer .footer-1 .box-container .box p {
+    
+    font-size: 12px;
+}
+
+/*========================================================================================= 
+                                     About Page
+=========================================================================================*/
+
+/* ===================================
+Main
+=====================================*/
+.aboutPage .aboutSection  {
+    width: 100%;
+
+}
+
+.aboutSection .thirdSection .box-container  {
+   flex-wrap: wrap;
+}
+
+.aboutSection .thirdSection .box-container .box p  {
+   margin-bottom: 10px;
+}
+
+/*========================================================================================= 
+                                     Listing Page
+=========================================================================================*/
+
+/* ===================================
+Main
+=====================================*/
+.listingPage .listingSection  {
+
+    width: 100%;
+
+}
+
+
+.listingPage .listingSection .firstSection article img  {
+    display: none;
+}
+
+.listingPage .listingSection .firstSection .box-container {
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+
+/*========================================================================================= 
+                                     Product Page
+=========================================================================================*/
+
+/* ===================================
+Main
+=====================================*/
+.productPage .productSection  {
+
+   width: 100%;
+
+}
+
+
+/*========================================================================================= 
+                                     Contact Page
+=========================================================================================*/
+
+/* ===================================
+Main
+=====================================*/
+.contactPage .contactSection  {
+    margin-top: 10px;
+    width: 100%;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
